@@ -1,4 +1,4 @@
-#!/usr/env/ben python3
+#!/usr/bin/env python3
 #purpose: simple implementation of a terminal-based hangman game
 #author: Joe Cloud: git@joe.cloud
 
@@ -29,7 +29,7 @@ def main():
     if letters_found == secret_length:
         print("Congratulations! You won.")
     else:
-        print("Sorry! You lost.")
+        print("Sorry! You lost. The correct word was %s." % secret)
 
 def printWordStatus(secret, prev_letters):
     print('Word:',end='')
