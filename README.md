@@ -14,4 +14,3 @@ A simple python-based hangman game.
 ## Notes
 
 Built to be used as a python tutorial. Uses lists, loops, conditional logic, and user defined functions.
-
